@@ -8,13 +8,12 @@ import { useAuthContext } from "@asgardeo/auth-react";
 import Simple from './pages/Simple';
 
 const App = () => {
-  const [roles, setRoles] = useState(null);
   const { state, signIn, signOut,getDecodedIDToken } = useAuthContext();
 
 
 
   console.log("isAuthenticated:", state.isAuthenticated);
-  console.log("Roles:", roles);
+
 
   return (
     <BrowserRouter>
