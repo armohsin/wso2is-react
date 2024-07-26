@@ -12,7 +12,7 @@ const config = {
   signOutRedirectURL: "https://localhost:3000/",
   clientID: "KE8reyQOYLX8VlX_RcddzpZ1v00a",
   baseUrl: "https://localhost:9443",
-  scope: ["openid", "profile"]
+  scope: ["openid", "profile","email","roles"]
 };
 
 root.render(
